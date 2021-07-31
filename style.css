@@ -1,0 +1,38 @@
+body
+{
+    background-color: lightcoral;
+}
+
+h3
+{
+    font-size: 25px !important;
+}
+
+canvas
+{
+    animation-name: example;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    background-image: url('confetti background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@keyframes example
+{
+    from
+    {
+        box-shadow: 2px 2px 32px darkolivegreen;
+    }
+
+    to
+    {
+        box-shadow: 2px 2px 32px darkcyan;
+    }
+}
+
+image
+{
+    box-shadow: 2px 2px 38px white;
+}
